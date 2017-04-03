@@ -22,7 +22,7 @@ name blank:false, nullable:false
 
 email blank:false, nullable:false, email:true
 
-office blank:false, nullable:false
+office blank:false, nullable:false, maxSize:100
 
 username blank:false, nullable:false, unique:true
 

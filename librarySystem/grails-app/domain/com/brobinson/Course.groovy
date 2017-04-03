@@ -25,7 +25,7 @@ leader blank:false, nullable:false
 
 department blank:false, nullable:false
 
-description blank:false, nullable:false, maxSize:5000
+description blank:false, nullable:false, maxSize:5000, widget:'textarea'
 
 studyMode blank:false, nullable:false, maxSize:20
 
