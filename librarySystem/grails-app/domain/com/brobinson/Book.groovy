@@ -8,11 +8,11 @@ String subject
 
 String author
 
-int isbn
+String isbn
 
-Date dateborrowed
+Date dateBorrowed
 
-Date returndate
+Date returnDate
 
 String student
 
@@ -29,9 +29,9 @@ author blank:false, nullable:false
 
 isbn blank:false, nullable:false, maxSize:50
 
-dateborrowed blank:false, nullable:false
+dateBorrowed blank:false, nullable:false
 
-returndate blank:false, nullable:false
+returnDate blank:false, nullable:false
 
 student blank:false, nullable:false
 
