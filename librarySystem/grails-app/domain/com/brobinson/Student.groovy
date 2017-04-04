@@ -12,7 +12,9 @@ String password
 
 int studentid
 
-String course
+Course course
+
+Library locallibrary
 
     static constraints = {
 
@@ -28,5 +30,9 @@ studentid blank:false, nullable:false
 
 course blank:false, nullable:false
 
+locallibrary blank:false, nullable:false
+
     }
+
+   static hasMany={bookreviews:BookReviews}
 }

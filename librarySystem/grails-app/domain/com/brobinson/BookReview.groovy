@@ -2,11 +2,11 @@ package com.brobinson
 
 class BookReview {
 
-String book
+Book book
 
 Date datecreated
 
-String student
+Student student
 
 String review
 

@@ -25,4 +25,7 @@ location blank:false, nullable:false
 studySpaces blank:false, nullable:false
 
     }
+
+static hasMany=[librarians:Librarian, books:Book]
+
 }
